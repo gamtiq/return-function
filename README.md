@@ -8,7 +8,7 @@ Can be used for stubs.
 
 ### Node
 
-npm install return-function
+    npm install return-function
 
 ### Component
 
