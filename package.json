@@ -1,0 +1,25 @@
+{
+  "name": "return-function",
+  "version": "0.0.1",
+  "description": "Set of functions that simply return a value",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gamtiq/return-function.git"
+  },
+  "keywords": [
+    "function",
+    "return",
+    "value",
+    "stub"
+  ],
+  "homepage": "https://github.com/gamtiq/return-function",
+  "author": "Denis Sikuler",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/gamtiq/return-function/issues"
+  }
+}

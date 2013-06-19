@@ -1,0 +1,19 @@
+{
+    "name": "return-function",
+    "repo": "gamtiq/return-function",
+    "description": "Set of functions that simply return a value",
+    "version": "0.0.1",
+    "keywords": [
+        "function",
+        "return",
+        "value",
+        "stub"
+    ],
+    "dependencies": {},
+    "development": {},
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": [
+        "index.js"
+    ]
+}
