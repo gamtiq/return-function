@@ -6,6 +6,12 @@ Can be used for stubs.
 
 ## Installation
 
+### Node
+
+npm install return-function
+
+### Component
+
 Install component:
 
     npm install -g component
