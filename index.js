@@ -103,7 +103,7 @@ module.exports = {
 
     /** 
      * Return date.
-     * @return {Array}
+     * @return {Date}
      */
     returnDate: function() {
         return new Date();
@@ -111,7 +111,7 @@ module.exports = {
 
     /** 
      * Return <code>this</code>.
-     * @return {object}
+     * @return {Object}
      */
     returnThis: returnThis,
 

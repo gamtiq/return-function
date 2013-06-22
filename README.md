@@ -22,8 +22,27 @@ Then:
 
 ## Usage
 
+### Node, Component
+
     var ret = require("return-function");
     ...
+    
+### AMD
+
+    define(["dist/return-function"], function(ret) {
+        ...
+    });
+
+### Browser
+
+    <script type="text/javascript" src="dist/return-function.js"></script>
+    <script type="text/javascript">
+        var ret = returnFunction;
+        ...
+    </script>
+
+## Examples
+
     var global = ret.returnGlobal();   // window in browser
     var first = ret.returnFirstArg(1, 2, 3);   // 1
     var second = ret.returnSecondArg(1, 2, 3);   // 2
