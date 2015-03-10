@@ -12,7 +12,7 @@ Can be used for stubs.
 
 ### Component
 
-Install component:
+Install [Component](https://github.com/componentjs/component):
 
     npm install -g component
 

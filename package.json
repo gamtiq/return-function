@@ -1,6 +1,6 @@
 {
   "name": "return-function",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Set of functions that simply return a value",
   "main": "index.js",
   "scripts": {
