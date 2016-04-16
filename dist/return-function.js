@@ -177,6 +177,20 @@
              */
             returnArgList: function() {
                 return Array.prototype.slice.call(arguments, 0);
+            },
+            
+            /** 
+             * Return function that returns specified value.
+             * 
+             * @param value
+             *          Value that should be returned by created function.
+             * @return {Function}
+             *          Function that returns specified value.
+             */
+            getValueFunction: function(value) {
+                return function() {
+                    return value;
+                };
             }
         };
     })()

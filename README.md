@@ -47,6 +47,8 @@ Then:
     var first = ret.returnFirstArg(1, 2, 3);   // 1
     var second = ret.returnSecondArg(1, 2, 3);   // 2
     var list = ret.returnArgList(1, 2, 3);   // [1, 2, 3]
+    var f = ret.getValueFunction("some value");
+    f(123);   // "some value"
 
 ## API
 
@@ -121,4 +123,8 @@ Return the second argument.
 ### .returnArgList()
 
 Return array of arguments.
+
+### .getValueFunction(value)
+
+Return function that returns specified value.
 
