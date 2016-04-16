@@ -2,7 +2,7 @@
 
 Set of functions that simply return a value.
 Can be used for stubs.
-
+Contains function that creates functions which return a value.
 
 ## Installation
 
